@@ -9,4 +9,8 @@ $ mkdir -p wordpress/wp-content
 
 $ mkdir mysql
 
+$ chmod -R 777 wordpress
+
+$ chmod 777 mysql
+
 $ docker-compose up -d 
